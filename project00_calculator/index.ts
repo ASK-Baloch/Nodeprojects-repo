@@ -58,8 +58,7 @@ async function askQuestion() {
     } 
   ]); 
 
-
-       if(answers.operator == "Addition") { 
+ if(answers.operator == "Addition") { 
            console.log(chalk.greenBright(`${answers.num1} + ${answers.num2} = ${answers.num1 + answers.num2}`))
         }
         else if(answers.operator == "Subtraction") { 
@@ -73,13 +72,9 @@ async function askQuestion() {
         }
         else if(answers.operator == "Power"){
             console.log(chalk.greenBright(`${answers.num1} ^ ${answers.num2} = ${answers.num1 ** answers.num2}`))
-        }
- 
-     
-
-
-    
+        } 
 };
+
 async function startAgain(){
     do{
     await askQuestion()
