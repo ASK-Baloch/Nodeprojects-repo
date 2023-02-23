@@ -21,7 +21,7 @@ async function welcome(){
     ___.                                                      .__                                               
     ____  __ __  _____\_ |__   ___________          ____  __ __   ____   ______ _____|__| ____    ____           _________    _____   ____  
    /    \|  |  \/     \| __ \_/ __ \_  __ \       / ___ \|  |  \_/ __ \ /  ___//  ___/  |/    \  / ___\       /  ___\__  \  /     \_/ __ \ 
-  |   |  \  |  /  Y Y  \ \_\ \  ___/|  | \/      / /_/  >  |  /\  ___/ \___ \ \___ \|  |   |  \/ /_/  >      / /_/  > __ \|  Y Y  \  ___/ 
+  |   |  \  |  /  Y Y  \ \_\ \  ___/|  | \/      / /_/  >  |  /\  ___/ \___ \ \___ \|  |   |  \/ /_/  >      / /_/  > __  \|  Y Y  \  ___/ 
   |___|  /____/|__|_|  /___  /\___  >__|         \___  /|____/  \___  >____  >____  >__|___|  /\___  /       \___  (____  /__|_|  /\___  >
        \/            \/    \/     \/            /_____/             \/     \/     \/        \//_____/       /_____/     \/      \/     \/ 
     `))
@@ -32,6 +32,7 @@ async function welcome(){
     IF YOU GUESS CORRECTLY WITHIN 3 TRAILS`} ${'YOU WILL BE A WINNER!'}`)
 
 }
+
 
 async function askagain(count:number,randomNumber?:number){
     const ask =  await inquirer.prompt({
@@ -49,6 +50,7 @@ async function askagain(count:number,randomNumber?:number){
         process.exit(0)
     }
 }
+
 
 async function guessGame(){
     const number=  await inquirer.prompt({
@@ -70,6 +72,7 @@ async function guessGame(){
     }
 }
 
+
 async function checkNumber(number: number) {
     // const spinner = createSpinner('comparing answer...').start()
     // await wait(1000)
@@ -87,9 +90,7 @@ async function checkNumber(number: number) {
             console.log(`${'Try Again :)'}`)
             guessGame()
         }
-
     }
-
 }
 await welcome()
 await guessGame()
