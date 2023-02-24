@@ -126,8 +126,6 @@ const conversionTable: ConversionTable = {
 
 }
 
-
-
         await currencyCoversion();
  
 
