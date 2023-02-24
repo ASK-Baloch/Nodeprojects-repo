@@ -6,7 +6,7 @@ import chalkAnimation from 'chalk-animation'
 
 
 let count=0
-const wait = (ms = 2000) => new Promise((r)=> setTimeout(r,ms))
+const wait = (ms = 2000) => new Promise((e)=> setTimeout(e,ms))
 async function welcome(){
     const gameTitle= chalkAnimation.rainbow(' Let the system Begin ')
     await wait()
