@@ -101,7 +101,7 @@ while (running) {
         console.log(`\n\t And You now have  ${numHealthPotions} health kit left`);
       }
       else {
-        console.log('\n\t You have no health potion left!');
+        console.log('\n\t You have no health kit left!');
 
       }
 
@@ -125,7 +125,7 @@ while (running) {
   // console.log('Thanks for playing!')
   if (getRandomNum(0, 100) < healthPotionDropChances) {
     numHealthPotions++;
-    console.log(`# The  ${enemy} dropped a health #`)
+    console.log(`# The  ${enemy} dropped a health kit #`)
     console.log(`# You now have  ${numHealthPotions} health kits left #`)
 
   }
