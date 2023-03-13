@@ -7,7 +7,7 @@ import chalkAnimation from 'chalk-animation';
 
 const wait = (ms = 2000) => new Promise((r)=> setTimeout(r,ms))
 async function welcome(): Promise<void>{
-    const gameTitle= chalkAnimation.neon('Let the count begin')
+    const gameTitle= chalkAnimation.neon('Let the count begin ')
     await wait()
     gameTitle.stop()
 
