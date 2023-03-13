@@ -1,3 +1,6 @@
+#! /usr/bin/env node
+
+
 import inquirer from "inquirer";
 import chalk from "chalk";
 import chalkAnimation from "chalk-animation";
@@ -37,7 +40,7 @@ async function main() {
   const choices = [
     { name: 'Add a todo', value: 'add' },
     { name: 'Remove a todo', value: 'remove' },
-    { name: 'Toggle a todo', value: 'toggle' },
+    { name: 'Togle a todo', value: 'toggle' },
     { name: 'Quit', value: 'quit' },
   ];
 
@@ -114,4 +117,4 @@ async function startAgain(){
 
 
 startAgain();
-
+export{}
