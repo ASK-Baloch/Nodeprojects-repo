@@ -10,7 +10,7 @@ import chalkAnimation from "chalk-animation";
 let count = 0;
 const wait = (ms = 10000) => new Promise((e) => setTimeout(e, ms));
 async function welcome() {
-  const gameTitle = chalkAnimation.pulse(" WElCOME to  YOUR PERSONAL BANK CONSOLE APP");
+  const gameTitle = chalkAnimation.pulse("WElCOME to  YOUR PERSONAL BANK CONSOLE APP");
   await wait();
   gameTitle.stop();
   console.log(`${chalk.magentaBright(`HAVE FUN `)}`);
