@@ -12,7 +12,7 @@ const starting = ()=> {
 }
 
 async function welcome() {
-  let rainbowTitle =  chalkAnimation.neon("lets start calculation");//start 
+  let rainbowTitle =  chalkAnimation.neon("lets start calculation ");//start 
   await starting( )
   rainbowTitle.stop()
   console.log(chalk.rgb(18, 189, 227)(`
