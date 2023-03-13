@@ -11,7 +11,7 @@ async function welcome() {
   const gameTitle = chalkAnimation.rainbow(" WElCOME to  PERSONALITY CONSOLE APP");
   await wait();
   gameTitle.stop();
-  console.log(`${chalk.magentaBright(`KNOW ABOUT YOURSELF AND HAVE FUN`)}`);
+  console.log(`${chalk.magentaBright(`KNOW ABOUT YOURSELF AND HAVE FUN `)}`);
 }
 await welcome();
 console.log(
