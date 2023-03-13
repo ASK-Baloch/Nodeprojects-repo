@@ -14,7 +14,7 @@ let randomNumber = RandomNumberGenerator();
 let count=0
 const wait = (ms = 2000) => new Promise((r)=> setTimeout(r,ms))
 async function welcome(){
-    const gameTitle= chalkAnimation.rainbow(' Let the Game begin')
+    const gameTitle= chalkAnimation.rainbow('Let the Game begin')
     await wait()
     gameTitle.stop()
     console.log(chalk.rgb(18, 189, 227)(`
