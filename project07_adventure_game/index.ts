@@ -13,7 +13,7 @@ async function welcome() {
   await wait();
   gameTitle.stop();
 
-  console.log(`${chalk.magentaBright(`PLAY AND HAVE FUN`)}`)
+  console.log(`${chalk.magentaBright(`PLAY AND HAVE FUN `)}`)
 
 }
 await welcome()
