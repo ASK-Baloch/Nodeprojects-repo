@@ -18,7 +18,7 @@ async function welcome(){
       ${chalk.bgRgb(5,2,6)('1)')} ENTER YOUR NAME :) 
       ${chalk.bgRgb(5,2,6)('2)')} AND THE COURSES YOU WANNA GET ENROLLED IN 
       ${chalk.bgRgb(5,2,6)('3)')} VIEW BALANCE AND PAY ALL THE COURSE COST TO FURTHER USE THE PROGRAM `)}`)
-     console.log(`S MANAGEMENT S  `)
+     console.log(`STUDENT MANAGEMENT SYSTEM  `)
      
 }
 
