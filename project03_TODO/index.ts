@@ -12,7 +12,7 @@ const sleep=()=>{
   }
   
    async function welcome() {
-    const title=chalkAnimation.rainbow(`Let the todo list Begin
+    const title=chalkAnimation.rainbow(`Let the todo list Begin 
      _________________
     | _______________ |
     ||.-----___-----.||
