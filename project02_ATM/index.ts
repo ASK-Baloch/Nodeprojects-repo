@@ -6,7 +6,7 @@ import chalkAnimation from 'chalk-animation'
 
 const wait = (ms = 2000) => new Promise((r)=> setTimeout(r,ms))
 async function welcome(){
-    const gameTitle= chalkAnimation.rainbow(' Let the Transactions begin')
+    const gameTitle= chalkAnimation.rainbow('Let the Transactions begin')
     await wait()
     gameTitle.stop()
     console.log(chalk.rgb(18, 189, 227)(`A T  M `))
