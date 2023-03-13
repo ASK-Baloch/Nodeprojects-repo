@@ -8,7 +8,7 @@ async function welcome() {
     const gameTitle = chalkAnimation.rainbow(" WElCOME to COUNTDOWN TIMER ");
     await wait();
     gameTitle.stop();
-    console.log(`${chalk.magentaBright(`WAIT AND HAVE FUN`)}`);
+    console.log(`${chalk.magentaBright(`WAIT AND HAVE FUN `)}`);
 }
 await welcome();
 console.log(`${chalk.whiteBright(`
@@ -24,7 +24,7 @@ async function futureTime() {
         {
             type: 'input',
             name: 'date',
-            message: 'Enter a future date (YYYY-MM-DD HH:mm:ss):',
+            message: 'Enter a future date in  (YYYY-MM-DD HH:mm:ss):',
             validate: (input) => {
                 const isValid = /^\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}$/.test(input);
                 return isValid || 'Please enter a valid date in the format YYYY-MM-DD HH:mm:ss';

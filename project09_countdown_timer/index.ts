@@ -30,7 +30,7 @@ async function futureTime(): Promise<Date> {
       {
         type: 'input',
         name: 'date',
-        message: 'Enter a future date (YYYY-MM-DD HH:mm:ss):',
+        message: 'Enter a future date in  (YYYY-MM-DD HH:mm:ss) :',
         validate: (input) => {
           const isValid = /^\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}$/.test(input);
           return isValid || 'Please enter a valid date in the format YYYY-MM-DD HH:mm:ss';
